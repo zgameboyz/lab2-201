@@ -7,14 +7,13 @@ alert('Well hello there '+ userName + ' It is so nice to meet you I want to get 
 // ask a question that expects a yes or no answer
 let videoGames = prompt('Do you like video games? Please answer with yes or no');
 
-console.log(videoGames);
+
 
 
 let lowerCaseVideoGames = videoGames.toLowerCase();
 let upperCaseVideoGames = videoGames.toUpperCase();
 
-console.log(lowerCaseVideoGames);
-console.log(upperCaseVideoGames);
+
 
 if (lowerCaseVideoGames === 'yes' || lowerCaseVideoGames === 'y') {
   alert('That\'s a truly wonderful thing to hear. I think they are just amazing.');
@@ -32,14 +31,12 @@ if (lowerCaseVideoGames === 'yes' || lowerCaseVideoGames === 'y') {
 
 let travel = prompt('Do you ever just want to travel? Please answer with yes or no');
 
-console.log(travel);
 
 
 let lowerCaseTravel = travel.toLowerCase();
 let upperCaseTravel = travel.toUpperCase();
 
-console.log(lowerCaseTravel);
-console.log(upperCaseTravel);
+
 
 if (lowerCaseTravel === 'yes' || lowerCaseTravel === 'y') {
   alert('That\'s wonderful I want to go to Europe someday.');
@@ -57,14 +54,11 @@ if (lowerCaseTravel === 'yes' || lowerCaseTravel === 'y') {
 
 let fly = prompt('Do you wish you could fly? Please answer with yes or no');
 
-console.log(fly);
 
 
 let lowerCaseFly = fly.toLowerCase();
 let upperCaseFly = fly.toUpperCase();
 
-console.log(lowerCaseFly);
-console.log(upperCaseFly);
 
 if (lowerCaseFly === 'yes' || lowerCaseFly === 'y') {
   alert('Wouldn\'t that be just so much fun?');
@@ -83,14 +77,10 @@ if (lowerCaseFly === 'yes' || lowerCaseFly === 'y') {
 
 let trillionaire = prompt('Are you a trillionaire? Please answer with yes or no');
 
-console.log(trillionaire);
 
 
 let lowerCaseTrillionaire = trillionaire.toLowerCase();
 let upperCaseTrillionaire = trillionaire.toUpperCase();
-
-console.log(lowerCaseTrillionaire);
-console.log(upperCaseTrillionaire);
 
 if (lowerCaseTrillionaire === 'yes' || lowerCaseTrillionaire === 'y') {
   alert('That\'s great I should have put my paypal in here in case ya know, you had some extra coin hah.');
@@ -108,14 +98,11 @@ if (lowerCaseTrillionaire === 'yes' || lowerCaseTrillionaire === 'y') {
 
 let animals = prompt('Last question. Do you like animals? Please answer with yes or no');
 
-console.log(animals);
 
 
 let lowerCaseAnimals = animals.toLowerCase();
 let upperCaseAnimals = animals.toUpperCase();
 
-console.log(lowerCaseAnimals);
-console.log(upperCaseAnimals);
 
 if (lowerCaseAnimals === 'yes' || lowerCaseAnimals === 'y') {
   alert('That\'s a truly wonderful thing to hear. I love animals they are so nice.');
@@ -168,7 +155,6 @@ let flag = false;
     
     
     
-    console.log(favFoods[i]);
 
       if (favFoods[i] === guessFoods) {
         alert('You got it!!!!');

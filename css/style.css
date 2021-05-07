@@ -1,47 +1,86 @@
-body * {
-  box-sizing: border-box;
-  /* make sure that when you calculate the size of an element you include the border within the total size */
+html{
+  
+  font-size: 1.5em;
+  background-image: url("/img/bg.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: #e4dae8;
+ 
+  
 }
 
-/* I like to start by sizing my text */
+body * {
+  box-sizing: border-box;
+  
+  border-radius: 3%;  
+}
 
 h1 {
-  font-size: 2em;
+  font-size: 3em;
+  text-align: center;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 2em;
+  text-align: center;
 }
 
-h3 {
-  font-size: 1.25em;
-}
 
 header {
-  /* border-width: ;
-  border-style: ;
-  border-color: ; */
-  border: 5px dotted black;
-  /* defaults to 3px solid black */
+
+
+
+
   margin: 5px;
   padding: 10px;
 }
 
 section {
-  border: 5px dotted black;
-  margin-top: 30px;
-  margin-left: 5px;
-  margin-right: 5px;
-  padding: 10px;
+  
+  border-radius: 3%;
+  padding: 50px 50px 50px 50px;
+  float: left;
+  width: 25%;
+
 }
 
 img {
-  width: 25%;
+  width: 33%;
+  height: 33%;
   display: block;
   margin: 10px auto;
+  border-radius: 3%;
+  float: left;
 }
 
 ol {
   list-style: decimal;
   list-style-position: inside;
+  text-align: center;
+  padding-top: 10px;
+}
+ul {
+  list-style: decimal;
+  list-style-position: inside;
+  text-align: center;
+  padding-top: 10px;
+}
+p{
+  text-align: center;
+  
+}
+footer{
+  
+  text-align: center;
+  clear: both;
+}
+#intro{
+  width: 100% ;
+}
+#vgBorder{
+padding: 50px 50px 50px 50px;
+}
+#about{
+  font-size: 2.5em;
+  text-align: center;
 }
